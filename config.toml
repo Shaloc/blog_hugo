@@ -1,6 +1,7 @@
 baseURL = "https://shaloc.site"
 languageCode = "en-us"
-title = "Shaloc::Site"
+title = "Fagus!"
+subtitle = "洛克的生活研究所"
 theme = "maupassant"
 
 ## 是否禁止URL Path转小写
@@ -9,12 +10,23 @@ disablePathToLower = true
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
 
+## googleAnalytics
+googleAnalytics = "UA-132327203-1"
+
 [author]
 name = "Shaloc"
 
 [params]
 author = "Shaloc"
-subtitile = "Shaloc::Site::Main->useHugo().push()"
+subtitle = "洛克的自留研究所"
+busuanzi = true
+
+[params.utteranc]
+    enable = true
+    repo = "Shaloc/review"
+    issueTerm = "pathname"
+    theme = "github-light"
+
 
 [menu]
 [[menu.main]]
@@ -29,12 +41,17 @@ subtitile = "Shaloc::Site::Main->useHugo().push()"
   weight = 3
 
 [[params.links]]
-  title = "Android Gradle权威指南"
-  name = "Android Gradle权威指南"
-  url ="http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
+  title = "sm.ms"
+  name = "土豪兽兽建的图床"
+  url = "https://sm.ms/"
+
+[[params.links]]
+  title = "liu-lingfei"
+  name = "一个学弟的博客"
+  url = "https://liu-lingfei.github.io/"
+
 [[params.links]]
   title = "常用开发工具CDN镜像"
   name = "常用开发工具CDN镜像"
   url = "http://mirrors.flysnow.org/"
-
 
