@@ -50,8 +50,4 @@ busuanzi = true
   name = "一个学弟的博客"
   url = "https://liu-lingfei.github.io/"
 
-[[params.links]]
-  title = "常用开发工具CDN镜像"
-  name = "常用开发工具CDN镜像"
-  url = "http://mirrors.flysnow.org/"
 
