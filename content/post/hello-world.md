@@ -14,3 +14,4 @@ draft: false
 ```cpp
 Shaloc::Site::Hugo()
 ```
+OwO
