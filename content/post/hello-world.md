@@ -9,15 +9,20 @@ categories: ["pages"]
 author: "Shaloc"
 draft: false
 ---
-
-# 你好，世界！
+这是一个预留的主页。
 ```cpp
 Shaloc::Site::Hugo()
 ```
 <!--more-->
 ## OwO
-
+1.0.0 移植（并且稍微修改了）maupassant主题
 ## Tests
+[<font color='green'>passed</font>] Test::Force_SSL <br/>
 [<font color='green'>passed</font>] Test::Comment_With_Github_Issue <br/>
-[<font color='blue'>passing</font>] Test::Automatic_Deploy <br/>
-[<font color='gray'>ignored</font>]  Test::Multipoint_Deploy <br/>
+[<font color='green'>passed</font>] Test::Automatic_Deploy <br/>
+[<font color='red'>failed</font>] Test::Fail_Test <br/>
+[<font color='gray'>ignored</font>] Test::Multipoint_Deploy <br/>
+## Links
+See the bottom of this page.
+P.S. WordPress还没有被放弃
+P.P.S 友链建议链接到此页
