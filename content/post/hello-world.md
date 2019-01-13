@@ -15,7 +15,7 @@ Shaloc::Site::Hugo()
 ```
 <!--more-->
 ## OwO
-1.0.0 移植（并且稍微修改了）maupassant主题
+1.0.0 使用稍微修改了的maupassant主题
 ## Tests
 [<font color='green'>passed</font>] Test::Force_SSL <br/>
 [<font color='green'>passed</font>] Test::Comment_With_Github_Issue <br/>
