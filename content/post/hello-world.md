@@ -20,9 +20,11 @@ Shaloc::Site::Hugo()
 [<font color='green'>passed</font>] Test::Force_SSL <br/>
 [<font color='green'>passed</font>] Test::Comment_With_Github_Issue <br/>
 [<font color='green'>passed</font>] Test::Automatic_Deploy <br/>
+[<font color='green'>passed</font>] Test::Site_Map <br/>
 [<font color='red'>failed</font>] Test::Fail_Test <br/>
 [<font color='gray'>ignored</font>] Test::Multipoint_Deploy <br/>
 ## Links
 See the bottom of this page.
-P.S. WordPress还没有被放弃
-P.P.S 友链建议链接到此页
+## Notes
+WordPress还没有被放弃
+P.S 友链建议链接到此页
