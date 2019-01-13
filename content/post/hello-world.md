@@ -9,7 +9,7 @@ categories: ["pages"]
 author: "Shaloc"
 draft: false
 ---
-这是一个预留的主页。
+这是一个预留的主页。(会一直置顶)
 ```cpp
 Shaloc::Site::Hugo()
 ```

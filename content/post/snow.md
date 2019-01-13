@@ -1,7 +1,6 @@
 ---
 title: "Snow"
 date: 2019-01-12T11:39:39+08:00
-weight: 70
 keywords: ["雪"]
 tags: ["趴会儿"]
 categories: ["metaphysical"]
