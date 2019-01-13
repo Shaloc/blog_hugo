@@ -26,5 +26,5 @@ Shaloc::Site::Hugo()
 ## Links
 See the bottom of this page.
 ## Notes
-WordPress还没有被放弃
+WordPress还没有被放弃<br/>
 P.S 友链建议链接到此页
