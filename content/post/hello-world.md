@@ -14,9 +14,10 @@ draft: false
 ```cpp
 Shaloc::Site::Hugo()
 ```
+<!--more-->
 ## OwO
 
 ## Tests
-[<font color='green'>passed</font>] Test::Comment_With_Github_Issue
-[<font color='blue'>passing</font>] Test::Automatic_Deploy
-[<font color='gray'>ignored</font>]  Test::Multipoint_Deploy
+[<font color='green'>passed</font>] Test::Comment_With_Github_Issue <br/>
+[<font color='blue'>passing</font>] Test::Automatic_Deploy <br/>
+[<font color='gray'>ignored</font>]  Test::Multipoint_Deploy <br/>
