@@ -17,12 +17,13 @@ Shaloc::Site::Hugo()
 ## OwO
 1.0.0 使用稍微修改了的maupassant主题
 ## Tests
+<font face='Consolas'>
 [<font color='green'>passed</font>] Test::Force_SSL <br/>
 [<font color='green'>passed</font>] Test::Comment_With_Github_Issue <br/>
 [<font color='green'>passed</font>] Test::Automatic_Deploy <br/>
 [<font color='green'>passed</font>] Test::Site_Map <br/>
 [<font color='red'>failed</font>] Test::Fail_Test <br/>
-[<font color='gray'>ignored</font>] Test::Multipoint_Deploy <br/>
+[<font color='gray'>ignored</font>] Test::Multipoint_Deploy <br/></font>
 ## Links
 See the bottom of this page.
 ## Notes
