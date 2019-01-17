@@ -88,8 +88,10 @@ sudo python setup.py install
 sudo python3 setup.py install
 ```
 PlutoSDR中的相关测试都可以用，使用这些测试大概可以了解相关接口。
+
 > 注意，因为设置和取值精度的问题，有些测试自己都不能通过。
 > 这可能是一些bug
+
 API接口都可以直接使用：
 ```python
 from pluto.pluto_sdr import PlutoSdr
