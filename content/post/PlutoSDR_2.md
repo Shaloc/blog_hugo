@@ -19,7 +19,7 @@ fw_setenv attr_val ad9364
 前后两种参数如下表所示：
 
 |RF Transceiver|LO tuning range|Bandwidth|
-|:==:|:==:|:==:|
+|:--:|:--:|:--:|
 |AD9363|325-3800MHz|20MHz|
 |AD9364|70-6000MHz|56MHz|
 
