@@ -1,7 +1,7 @@
 baseURL = "https://shaloc.site"
 languageCode = "en-us"
-title = "Fagus!"
-subtitle = "洛克的生活研究所"
+title = "大可爱和巨可爱"
+subtitle = "见过的月亮，至此成了弧"
 theme = "maupassant"
 
 ## 是否禁止URL Path转小写
@@ -19,7 +19,7 @@ name = "Shaloc"
 
 [params]
 author = "Shaloc"
-subtitle = "洛克的自留研究所"
+subtitle = "见过的月亮，至此成了弧"
 busuanzi = true
 
 [params.utteranc]
