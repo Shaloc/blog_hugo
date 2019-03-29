@@ -1,28 +1,74 @@
-.box-info {
-    background: #e7e7e7;
-    border-color: #E0DEDE;
-    color: #333;
-    padding: 15px 20px 15px 30px;
-}
+.box{text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);border: 1px solid;clear:both;margin:15px 0}
+.box i {font-size: 26px;float: left;position:relative;left:-10px;top: -10px;}
+.box-blue,.box-green,.box-grey,.box-red,.box-tan,.box-yellow{padding:15px}
+.box-blue{background-color:#dbe7f8;border-color:#b7d2f2}
+.box-green{background-color:#f2f9e5;border-color:#ddedbc}
+.box-grey{background-color:#f2f2f2;border-color:#e5e5e5}
+.box-red{background-color:#ffdfdf;border-color:#feabab}
+.box-tan{background-color:#fef8e1;border-color:#feebab}
+.box-yellow{background-color:#ffffd5;border-color:#feebab}
+.box-alert,.box-warning,.box-download,.box-info,.box-tip{padding:15px 20px 15px 30px}
+.box-warning{background:#FCF8E3;border-color:#FBEED5;color: #C09853}
+.box-alert{background:#F2DEDE;border-color:#EED3D7;color:#B94A48}
+.box-download{background:#D9EDF7;border-color:#BCE8F1;color:#3A87AD}
+.box-info{background:#e7e7e7;border-color:#E0DEDE;color:#333}
+.box-tip{background:#DFF0D8;border-color:#D6E9C6;color:#468847}
 
-.box-alert {
-    background: #F2DEDE;
-    border-color: #EED3D7;
-    color: #B94A48;
-    padding: 15px 20px 15px 30px;
-}
 
-.box {
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    border: 1px solid;
-    clear: both;
-    margin: 15px 0;
+@font-face {
+  font-family: 'fontello';
+  src: url('/font/fontello.eot?78927922');
+  src: url('/font/fontello.eot?78927922#iefix') format('embedded-opentype'),
+       url('/font/fontello.woff?78927922') format('woff'),
+       url('/font/fontello.ttf?78927922') format('truetype'),
+       url('/font/fontello.svg?78927922#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.icon-info:before {
-    content: '\e804';
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?78927922#fontello') format('svg');
+  }
 }
-
-.icon-alert:before {
-    content: '\e800';
+*/
+ 
+ [class^="dwicon-"]:before, [class*=" dwicon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
+ 
+.icon-alert:before { content: '\e800'; } /* 'î €' */
+.icon-warning:before { content: '\e801'; } /* 'î ' */
+.icon-download:before { content: '\e802'; } /* 'î ‚' */
+.icon-tip:before { content: '\e803'; } /* 'î ƒ' */
+.icon-info:before { content: '\e804'; } /* 'î „' */
