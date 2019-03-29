@@ -10,7 +10,7 @@ draft: false
 <link rel="stylesheet" href="/custom_style.css">
 
 <div class="box box-alert">
-<i class="icon-alert"> </i>
+<i class="bwicon-alert"> </i>
 本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段
 </div>
 
