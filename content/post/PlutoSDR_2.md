@@ -14,6 +14,13 @@ draft: false
     padding: 15px 20px 15px 30px;
 }
 
+.box-alert {
+    background: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+    padding: 15px 20px 15px 30px;
+}
+
 .box {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     border: 1px solid;
@@ -24,13 +31,17 @@ draft: false
 .icon-info:before {
     content: '\e804';
 }
+
+.icon-info:before {
+    content: '\e800';
+}
 </style>
-<div class="box box-info">
-<i class="icon-info"> ::before </i>
+<div class="box box-alert">
+<i class="icon-alert"></i>
 <p></p>
-<p>本项目<strong>已经弃用</strong></p>
-<p>这个破玩意的天线根本不支持FM波段</p>
+<p>本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段</p>
 </div>
+
 传输音频是SDR上手的不错的方法。使用GNU Radio搭设电台的发送模块和接收模块以传输音频。
 ## 准备工作
 一般来说FM电台的频率大概在70MHz~130MHz间，然而这枚芯片上的AD9363仅支持325-3800MHz@20MHz BW，然而根据[官网](https://wiki.analog.com/university/tools/pluto/users/customizing)所述，它是可以被Update到AD3964的70-6000MHz@56MHz BW的，只需要在PlutoSDR的U-Boot中设置两个环境变量：
