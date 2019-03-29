@@ -6,7 +6,7 @@ categories: ["sdr"]
 author: "Shaloc"
 draft: false
 ---
-<style>
+<style type='text/css'>
 .box-info {
     background: #e7e7e7;
     border-color: #E0DEDE;
@@ -32,13 +32,13 @@ draft: false
     content: '\e804';
 }
 
-.icon-info:before {
+.icon-alert:before {
     content: '\e800';
 }
 </style>
 <div class="box box-alert">
-<i class="icon-alert"> ::before == $0 </i>
-<p>本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段</p>
+<i class="icon-alert"> </i>
+本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段
 </div>
 
 传输音频是SDR上手的不错的方法。使用GNU Radio搭设电台的发送模块和接收模块以传输音频。
