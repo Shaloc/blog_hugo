@@ -7,36 +7,8 @@ author: "Shaloc"
 draft: false
 ---
 
-<style type='text/css'>
-.box-info {
-    background: #e7e7e7;
-    border-color: #E0DEDE;
-    color: #333;
-    padding: 15px 20px 15px 30px;
-}
+<link rel="stylesheet" href="static/custom_style.css">
 
-.box-alert {
-    background: #F2DEDE;
-    border-color: #EED3D7;
-    color: #B94A48;
-    padding: 15px 20px 15px 30px;
-}
-
-.box {
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    border: 1px solid;
-    clear: both;
-    margin: 15px 0;
-}
-
-.icon-info:before {
-    content: '\e804';
-}
-
-.icon-alert:before {
-    content: '\e800';
-}
-</style>
 <div class="box box-alert">
 <i class="icon-alert"> </i>
 本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段
