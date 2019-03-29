@@ -1,7 +1,7 @@
 baseURL = "https://shaloc.site"
 languageCode = "en-us"
 title = "大可爱和巨可爱"
-subtitle = "见过的月亮，至此成了弧"
+subtitle = "Snow, sunshine and sea"
 theme = "maupassant"
 
 ## 是否禁止URL Path转小写
@@ -19,7 +19,7 @@ name = "Shaloc"
 
 [params]
 author = "Shaloc"
-subtitle = "见过的月亮，至此成了弧"
+subtitle = "Snow, sunshine and sea"
 busuanzi = true
 
 [params.utteranc]
