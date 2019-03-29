@@ -37,8 +37,7 @@ draft: false
 }
 </style>
 <div class="box box-alert">
-<i class="icon-alert"></i>
-<p></p>
+<i class="icon-alert"> ::before == $0 </i>
 <p>本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段</p>
 </div>
 
