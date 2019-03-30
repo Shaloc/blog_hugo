@@ -7,7 +7,7 @@ author: "Shaloc"
 draft: false
 ---
 
-<link rel="stylesheet" href="/custom_style.css">
+<link rel="stylesheet" href="/bwbox.css">
 
 <div class="box box-alert">
 <i class="bwicon-alert"> </i>

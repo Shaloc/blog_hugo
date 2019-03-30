@@ -40,6 +40,11 @@ busuanzi = true
   name = "关于"
   url = "/about/"
   weight = 3
+[[menu.main]]
+  identifier = "servers"
+  name = "服务器"
+  url = "https://status.shaloc.site"
+  weight = 4
 
 [[params.links]]
   title = "sm.ms"
