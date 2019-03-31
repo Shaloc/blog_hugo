@@ -14,7 +14,7 @@ draft: false
 <i class="bwicon-tip"> </i>
 <p>本博客欢迎友链！</p>
 请在下面评论，并将友链指向<a href="https://blog.shaloc.site" target="_blank">博客主页</a>或者
-<a href="https://wwww.shaloc.site" target="_blank">我的个人主页</a>。
+<a href="https://www.shaloc.site" target="_blank">我的个人主页</a>。
 </div>
 
 
