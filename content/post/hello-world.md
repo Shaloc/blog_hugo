@@ -18,7 +18,7 @@ draft: false
 </div>
 
 
-因为已经有了新的主页这里不需要制定啦
+因为已经有了新的主页这里不需要指定啦
 
 ```cpp
 Shaloc::Site::Hugo()

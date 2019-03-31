@@ -6,9 +6,9 @@ draft: false
 
 <link rel="stylesheet" href="/bwbox.css">
 
-<div class="box box-info">
-<i class="bwicon-info"> </i>
-你捕捉到了一直巨大的Gbw！
+<div class="box box-tip">
+<i class="bwicon-tip"> </i>
+你捕捉到了<strong>一只巨大的Gbw</strong>！
 </div>
 
 # About/关于
