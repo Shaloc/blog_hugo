@@ -3,6 +3,14 @@ title: "About"
 date: 2019-01-12T16:58:56+08:00
 draft: false
 ---
+
+<link rel="stylesheet" href="/bwbox.css">
+
+<div class="box box-info">
+<i class="bwicon-info"> </i>
+你捕捉到了一直巨大的Gbw！
+</div>
+
 # About/关于
 **这不是技术博客**
 
@@ -10,4 +18,4 @@ draft: false
 
 **关于我**
 
-请移步微博(*at*四只巨大的二哈)。
+请访问我的[主页](https://www.shaloc.site)了解更多信息。

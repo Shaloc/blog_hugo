@@ -1,7 +1,6 @@
 ---
 title: "Hello World"
 date: 2018-12-04T23:32:49+08:00
-weight: 70
 keywords: ["hello world"]
 description: "Shaloc::Site::get->getHelloWorld()"
 tags: ["Hugo", "Pages"]
@@ -9,7 +8,18 @@ categories: ["pages"]
 author: "Shaloc"
 draft: false
 ---
-这是一个预留的主页。(会一直置顶)
+<link rel="stylesheet" href="/bwbox.css">
+
+<div class="box box-tip">
+<i class="bwicon-tip"> </i>
+<p>本博客欢迎友链！</p>
+请在下面评论，并将友链指向<a href="https://blog.shaloc.site" target="_blank">博客主页</a>或者
+<a href="https://wwww.shaloc.site" target="_blank">我的个人主页</a>。
+</div>
+
+
+因为已经有了新的主页这里不需要制定啦
+
 ```cpp
 Shaloc::Site::Hugo()
 ```
