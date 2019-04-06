@@ -1,8 +1,5 @@
 language: go
-
-branches:
-  only:
-  - master
+go: stable
 
 before_install:
 - git config --global user.name "Shaloc"
@@ -18,11 +15,4 @@ script:
 - hugo
 
 after_success:
-- git clone -b master https://github.com/Shaloc/shaloc.github.io .deploy_git
-- cd .deploy_git
-- git checkout master
-- mv .git/ ../public/
-- cd ../public
-- git add -A
-- git commit -m "Site updated: 'date +"%Y-%m-%d %H:%M:%S"'"
-- git push origin master:master --force --quiet
+- .travis/deploy.sh
