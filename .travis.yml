@@ -1,19 +1,12 @@
 language: go
 
-go:
-  - "1.80"
-
 branches:
   only:
     - master
 
-cache:
-  directories:
-    - themes
-
 before_install:
-- git config --global user.name "Shaloc"
-- git config --global user.email "shalocn@outlook.com"
+  - git config --global user.name "Shaloc"
+  - git config --global user.email "shalocn@outlook.com"
 
 install:
   - go get github.com/gohugoio/hugo
