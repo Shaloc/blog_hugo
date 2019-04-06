@@ -9,5 +9,5 @@ git checkout master
 mv .git/ ../public/
 cd ../public
 git add -A
-git commit -m "Site updated: 'date +"%Y-%m-%d %H:%M:%S"'"
+git commit -m "Site updated: $(date +"%Y-%m-%d %H:%M:%S")"
 git push origin master:master --force --quiet
