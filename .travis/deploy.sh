@@ -3,7 +3,7 @@
 set -ev
 export TZ='Asia/Shanghai'
 
-git clone -b master git@github.com/Shaloc/shaloc.github.io .deploy_git
+git clone -b master git@github.com:Shaloc/shaloc.github.io.git .deploy_git
 cd .deploy_git
 git checkout master
 mv .git/ ../public/
