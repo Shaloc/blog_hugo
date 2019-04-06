@@ -9,6 +9,8 @@ addons:
   - gitee.com
   - shaloc.site
 before_install:
+- openssl aes-256-cbc -K $encrypted_016890f54c1f_key -iv $encrypted_016890f54c1f_iv
+  -in travis.key.enc -out ../travis.key -d
 - echo $encrypted_016890f54c1f_key
 - echo $encrypted_016890f54c1f_iv
 - openssl aes-256-cbc -K $encrypted_016890f54c1f_key -iv $encrypted_016890f54c1f_iv
