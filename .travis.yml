@@ -15,7 +15,12 @@ before_install:
 - git config --global user.name "Shaloc"
 - git config --global user.email "shalocn@outlook.com"
 install:
-- go get github.com/gohugoio/hugo
+# - go get github.com/gohugoio/hugo
+- cd ..
+- wget https://github.com/gohugoio/hugo/releases/download/v0.55.0/hugo_0.55.0_Linux-64bit.deb
+- sudo dpkg -i ./hugo_0.55.0_Linux-64bit.deb
+- sudo apt-get install -f
+- cd blog_hugo
 # - git submodule update --init --recursive
 script:
 - hugo version
