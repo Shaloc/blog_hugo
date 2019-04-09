@@ -1,5 +1,5 @@
 ---
-title: "也是想着大可爱的一周呐～周记～2019春第六周"
+title: "也是想着大可爱的一周呐～2019春第六周"
 date: 2019-04-09T20:00:55+08:00
 tags: []
 categories: ["stream of consciousness"]
