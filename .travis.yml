@@ -15,11 +15,8 @@ before_install:
 - git config --global user.name "Shaloc"
 - git config --global user.email "shalocn@outlook.com"
 install:
-# - go get github.com/gohugoio/hugo
-- sudo apt-get update
-- sleep 10
-- sudo apt-get install hugo
-- git submodule update --init --recursive
+- go get github.com/gohugoio/hugo
+# - git submodule update --init --recursive
 script:
 - hugo version
 - hugo
