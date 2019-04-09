@@ -1,7 +1,7 @@
 baseURL = "https://gblog.shaloc.site"
 languageCode = "en-us"
 title = "大可爱和巨可爱"
-subtitle = "Snow, sunshine and sea"
+subtitle = "想你，脑袋里都是你"
 theme = "maupassant"
 
 ## 是否禁止URL Path转小写
@@ -19,7 +19,7 @@ name = "Shaloc"
 
 [params]
 author = "Shaloc"
-subtitle = "Snow, sunshine and sea"
+subtitle = "想你，脑袋里都是你"
 busuanzi = true
 
 [params.utteranc]
