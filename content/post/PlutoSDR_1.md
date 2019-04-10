@@ -7,10 +7,12 @@ author: "Shaloc"
 draft: false
 ---
 
-## PlutoSDR简介
-参考AD官网即可。
+君软件无线电本当上手(x)
 
 <!--more-->
+
+## PlutoSDR简介
+参考AD官网即可。
 
 ## 环境
 PlutoSDR官方镜像 + Ubuntu 18.04(Parallel Desktop虚拟机)
