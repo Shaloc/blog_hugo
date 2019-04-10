@@ -7,11 +7,14 @@ author: "Shaloc"
 draft: false
 ---
 
-<link rel="stylesheet" href="/bwbox.css">
+弃用警告(
 
+<!--more-->
+
+<link rel="stylesheet" href="/bwbox.css">
 <div class="box box-alert">
 <i class="bwicon-alert"> </i>
-本项目<strong>已经弃用</strong>, 这个破玩意的天线根本不支持FM波段
+本项目<strong>已经弃用</strong>, 这个东西的天线根本不支持FM波段
 </div>
 
 传输音频是SDR上手的不错的方法。使用GNU Radio搭设电台的发送模块和接收模块以传输音频。

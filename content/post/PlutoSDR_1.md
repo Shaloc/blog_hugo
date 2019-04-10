@@ -9,6 +9,9 @@ draft: false
 
 ## PlutoSDR简介
 参考AD官网即可。
+
+<!--more-->
+
 ## 环境
 PlutoSDR官方镜像 + Ubuntu 18.04(Parallel Desktop虚拟机)
 ## 配置方法
