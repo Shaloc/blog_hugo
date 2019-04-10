@@ -5,9 +5,11 @@ repos:
     endpoint: https://api.travis-ci.org/
 addons:
   ssh_known_hosts:
+  # source code and deploy
   - github.com
   - gitee.com
-  - shaloc.site
+  # backup of site
+  - git.nju.edu.cn
 before_install:
 - openssl aes-256-cbc -K $encrypted_016890f54c1f_key -iv $encrypted_016890f54c1f_iv
   -in ./.travis/travis.key.enc -out ~/.ssh/id_rsa -d
