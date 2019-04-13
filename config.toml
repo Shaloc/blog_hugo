@@ -31,6 +31,11 @@ busuanzi = true
 
 [menu]
 [[menu.main]]
+  identifier = "lover"
+  name = "大可爱"
+  url = "/lover/"
+  weight = 1
+[[menu.main]]
   identifier = "archives"
   name = "归档"
   url = "/archives/"
