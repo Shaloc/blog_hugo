@@ -1,5 +1,6 @@
 ---
 title: "Ubuntu 18.04 重新安装 Grub2"
+date: 2019-04-13T10:09:39+08:00
 tags: ["ubuntu", "grub"]
 categories: ["tech"]
 author: "Shaloc"
