@@ -5,9 +5,8 @@ draft: false
 ---
 
 ## 大可爱现在几点了？
-<a href="https://time.is/Los_Angeles" id="time_is_link" rel="nofollow" style="font-size:36px">洛杉矶时间:</a>
 <span id="Los_Angeles_z14e" style="font-size:36px"></span>
-<script src="//widget.time.is/zh.js"></script>
+<script src="https://widget.time.is/zh.js"></script>
 <script>
 time_is_widget.init({Los_Angeles_z14e:{template:"TIME<br>DATE<br>SUN", date_format:"year年monthnamednum日dayname，第week周", sun_format:"日出: srhour:srminute 日落: sshour:ssminute<br>昼长: dlhours时 dlminutes分", coords:"34.0522300,-118.2436800"}});
 </script>
@@ -29,10 +28,10 @@ function dateCount(){
         var second = Math.floor(seconds);
         var back = day+'天'+hour+'小时'+minute+'分钟'+second+'秒';
         return back;}
-setInterval(function(){
+setInterval(function() {
         var text = dateCount();
         // show是一个节点
         last_date_time.innerText = text;
 },1000)
-<span id="last_date_time" style="font-size:36px"></span>
 </script>
+<span id="last_date_time" style="font-size:36px"></span>
