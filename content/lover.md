@@ -4,7 +4,6 @@ date: 2019-04-13T19:11:03+08:00
 draft: false
 ---
 
-<script src="https://widget.time.is/zh.js"></script>
 <script src="/myscript_lover.js"></script>
 
 ## 大可爱现在几点了？
