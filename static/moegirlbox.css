@@ -1,0 +1,18 @@
+.mgInfoBoxContent {
+    border: 1px solid #ddd;
+    border-left-width: 0;
+    background: #fbfbfb;
+}
+
+.mgInfoBoxIcon {
+    display: table-cell;
+    padding: 2px 0 2px .5em;
+    vertical-align: middle;
+}
+
+.mgInfoBoxText {
+    display: table-cell;
+    padding: .25em .5em .25em 1.3em;
+    width: 100%;
+    vertical-align: middle;
+}
