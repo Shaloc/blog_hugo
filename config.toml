@@ -34,22 +34,22 @@ busuanzi = true
   identifier = "lover"
   name = "大可爱"
   url = "/lover/"
-  weight = 1
+  weight = 2
 [[menu.main]]
   identifier = "archives"
   name = "归档"
   url = "/archives/"
-  weight = 2
+  weight = 3
 [[menu.main]]
   identifier = "about"
   name = "关于"
   url = "/about/"
-  weight = 3
+  weight = 4
 [[menu.main]]
   identifier = "servers"
   name = "服务器"
   url = "https://status.shaloc.site"
-  weight = 4
+  weight = 5
 
 [[params.links]]
   title = "sm.ms"
