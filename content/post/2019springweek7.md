@@ -4,7 +4,7 @@ date: 2019-04-18T18:57:36+08:00
 tags: ["OuO"]
 categories: ["stream of cousciousness"]
 author: "Shaloc"
-draft: true
+draft: false
 ---
 
 和大可爱快乐地度过了在一起的第两百天！第一次和大可爱一起做的事情又多了几件啦～超开心！
