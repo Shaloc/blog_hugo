@@ -2,7 +2,7 @@
 title: "我有压力吗～2019春第五周"
 date: 2019-04-02T21:59:57+08:00
 tags: []
-categories: ["stream of consciousness"]
+categories: ["weekly"]
 author: "Shaloc"
 draft: false
 ---

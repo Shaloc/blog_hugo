@@ -2,7 +2,7 @@
 title: "也是想着大可爱的一周呐～2019春第六周"
 date: 2019-04-09T20:00:55+08:00
 tags: []
-categories: ["stream of consciousness"]
+categories: ["weekly"]
 author: "Shaloc"
 draft: false
 ---
@@ -11,7 +11,7 @@ draft: false
 
 <!--more-->
 
-![啾咪](https://t1.aixinxi.net/o_1d81207q61jptcc1bphmoh1fhea.png-w.jpg)
+![啾咪](https://i.loli.net/2019/04/09/5cac8d19341da.png)
 
 虽然刚刚知道大可爱退掉了OS打算多在外面两周的时候我是有一点点超级想大可爱的（好像还不小心哭出来了）（似乎并没有被发现），但是仔细想了一下觉得应该为大可爱高兴才对鸭，没错！然后只能平时每天都看大可爱啦，噗有的时候自己真的会特别想一个人啦，黏人精gbw！不过时间被安排的很紧并不能去美帝看大可爱真的哭哭。
 
