@@ -1,3 +1,13 @@
+/*
+Usage:
+<link rel="stylesheet" href="/bwbox.css">
+<div class="box box-alert">
+<i class="bwicon-alert"> </i>
+xxx
+</div>
+*/
+
+
 .box{text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);border: 1px solid;clear:both;margin:15px 0}
 .box i {font-size: 26px;float: left;position:relative;left:-10px;top: -10px;}
 .box-blue,.box-green,.box-grey,.box-red,.box-tan,.box-yellow{padding:15px}
@@ -67,8 +77,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.bwicon-alert:before { content: '\e800'; } /* 'î €' */
-.bwicon-warning:before { content: '\e801'; } /* 'î ' */
-.bwicon-download:before { content: '\e802'; } /* 'î ‚' */
-.bwicon-tip:before { content: '\e803'; } /* 'î ƒ' */
-.bwicon-info:before { content: '\e804'; } /* 'î „' */
+.bwicon-alert:before { content: '\e800'; }
+.bwicon-warning:before { content: '\e801'; } 
+.bwicon-download:before { content: '\e802'; } 
+.bwicon-tip:before { content: '\e803'; }
+.bwicon-info:before { content: '\e804'; }
