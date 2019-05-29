@@ -1,5 +1,5 @@
 ---
-title: "要关心大可爱鸭～2019春第七周"
+title: "#3 要关心大可爱鸭"
 date: 2019-04-18T18:57:36+08:00
 tags: ["OuO"]
 categories: ["weekly"]
