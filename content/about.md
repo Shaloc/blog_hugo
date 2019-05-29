@@ -60,3 +60,9 @@ Hi~
 **关于我**
 
 请访问我的[主页](https://www.shaloc.site)了解更多信息。
+
+## 测试
+
+{{< bwbox info >}}
+    this is a bwbox shortcode test.
+{{< endbwbox >}}
