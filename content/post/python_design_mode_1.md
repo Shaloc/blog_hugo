@@ -6,6 +6,11 @@ categories: ["python"]
 author: "Shaloc"
 draft: false
 ---
+
+Python设计模式读书笔记开坑！(#1
+
+<!--more-->
+
 ## 单例模式(Single Instance)
 
 单例模式，即只允许存在一个实例，当初始化实例时，如果实例已经存在，则获取这个实例，如果不存在，则创建它。
