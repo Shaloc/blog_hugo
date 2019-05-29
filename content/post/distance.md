@@ -35,4 +35,6 @@ draft: false
 
 # 啾咪
 
+<iframe name="netease-music" frameborder="no" border="0" marginwidth="0" marginheight="0" height=66 src="//music.163.com/outchain/player?type=2&id=1350160463&auto=1&height=66"></iframe>
+
 去吃烤冷面啦~❤
