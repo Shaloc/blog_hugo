@@ -6,6 +6,10 @@ draft: false
 
 <link rel="stylesheet" href="/bwbox.css">
 
+{{< bwbox tip >}}
+    你捕捉到了**一只巨大的Gbw**
+{{< /bwbox >}}
+
 <div class="box box-tip">
 <i class="bwicon-tip"> </i>
 你捕捉到了<strong>一只巨大的Gbw</strong>！
