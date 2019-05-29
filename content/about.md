@@ -65,4 +65,4 @@ Hi~
 
 {{< bwbox info >}}
     this is a bwbox shortcode test.
-{{< endbwbox >}}
+{{< /bwbox >}}
