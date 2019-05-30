@@ -4,23 +4,14 @@ date: 2019-01-12T16:58:56+08:00
 draft: false
 ---
 
-<link rel="stylesheet" href="/bwbox.css">
+{{% bwbox tip %}}
+你捕捉到了**一只巨大的Gbw**!
+{{% /bwbox %}}
 
-{{< bwbox tip >}}
-    你捕捉到了**一只巨大的Gbw**
-{{< /bwbox >}}
-
-<div class="box box-tip">
-<i class="bwicon-tip"> </i>
-你捕捉到了<strong>一只巨大的Gbw</strong>！
-</div>
-
-<div class="box box-tip">
-<i class="bwicon-tip"> </i>
-<p>本博客欢迎友链！</p>
-请在下面评论，并将友链指向<a href="https://gblog.shaloc.site" target="_blank">博客主页</a>或者
-<a href="https://www.shaloc.site" target="_blank">我的个人主页</a>。
-</div>
+{{% bwbox tip %}}
+本博客欢迎友链！
+请在本页的最下面评论，并将友链指向[博客主页](https://gblog.shaloc.site)或者[我的个人主页](https://www.shaloc.site)。
+{{% /bwbox %}}
 
 Hi~
 
@@ -31,6 +22,7 @@ Hi~
 全部服务器：[服务器监控页面](https://status.shaloc.site)
 
 ## Versions
+
 |Rev|Date|Summary|
 |:----:|:----:|:-------------|
 | 0.1 | 2018.06 |首次尝试使用Hugo创建静态博客|
@@ -51,22 +43,28 @@ Hi~
 [<font color='green'>OK</font>] Test::Multipoint_Deploy <br/></font>
 
 ## Future
+
 - 移植MoegirlWiki上的通知栏
 - 整理额外CSS并整合到主题中
 - 修改default.md
 
 ## Declaration
 
-**这不是技术博客**
+### 这不是技术博客
 
-之前做的大概算是吧，不过因为备份上不了和<del>我摸了</del>的种种关系，要完全重新写了哦(无动力)
+之前做的大概算是吧，不过因为备份上不了和~~我摸了~~的种种关系，要完全重新写了哦(无动力)
 
-**关于我**
+### 关于我
 
 请访问我的[主页](https://www.shaloc.site)了解更多信息。
 
 ## 测试
 
-{{< bwbox info >}}
-    this is a bwbox shortcode test.
-{{< /bwbox >}}
+{{% bwbox info %}}
+
+## A markdown test
+
+Line 1.
+
+Line 2.
+{{% /bwbox %}}
