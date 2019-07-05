@@ -14,3 +14,4 @@ To visit more of my sites, please visit [my home page](https://www.shaloc.site).
 
 - Python设计模式（或者其他设计模式，总之要学习一下设计模式相关的内容）
 - 一些有趣的配置
+- 更新安装过的软件和教程列表
