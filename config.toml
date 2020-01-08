@@ -33,6 +33,10 @@ busuanzi = true
         lineNos = false
         style = "github"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
+
 [menu]
 [[menu.main]]
   identifier = "lover"
