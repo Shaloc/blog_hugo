@@ -28,6 +28,10 @@ busuanzi = true
     issueTerm = "pathname"
     theme = "github-light"
 
+[markup]
+    [markup.highlight]
+        lineNos = false
+        style = "github"
 
 [menu]
 [[menu.main]]

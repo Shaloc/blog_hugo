@@ -5,27 +5,24 @@ repos:
     endpoint: https://api.travis-ci.org/
 addons:
   ssh_known_hosts:
-  # source code and deploy
   - github.com
-  # - gitee.com
-  # backup of site
-  # - git.nju.edu.cn
 before_install:
+- openssl aes-256-cbc -K $encrypted_3c7444b0f500_key -iv $encrypted_3c7444b0f500_iv
+  -in ./.travis/get-favicon.enc -out ./.travis/get-favicon -d
 - openssl aes-256-cbc -K $encrypted_016890f54c1f_key -iv $encrypted_016890f54c1f_iv
   -in ./.travis/travis.key.enc -out ~/.ssh/id_rsa -d
+- wget http://q1.qlogo.cn/g?b=qq&nk=$(cat ./.travis/get-favicon)&s=5 -O ./static/favicon.ico
 - chmod 400 ~/.ssh/id_rsa
 - git config --global user.name "Shaloc"
 - git config --global user.email "shalocn@outlook.com"
 install:
-# - go get github.com/gohugoio/hugo
 - cd ..
 - wget https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb
 - sudo dpkg -i ./hugo_0.62.2_Linux-64bit.deb
 - sudo apt-get install -f
 - cd blog_hugo
-# - git submodule update --init --recursive
 script:
 - hugo version
 - hugo
 after_success:
-- ".travis/deploy.sh"
+- .travis/deploy.sh
