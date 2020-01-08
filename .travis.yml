@@ -11,7 +11,7 @@ before_install:
   -in ./.travis/get-favicon.enc -out ./.travis/get-favicon -d
 - openssl aes-256-cbc -K $encrypted_016890f54c1f_key -iv $encrypted_016890f54c1f_iv
   -in ./.travis/travis.key.enc -out ~/.ssh/id_rsa -d
-- wget -c http://q1.qlogo.cn/g\?b\=qq\&nk\=$(cat ./.travis/get-favicon)\&s\=3 -O ./static/favicon.ico
+- ./.travis/get-favicon.sh
 - chmod 400 ~/.ssh/id_rsa
 - git config --global user.name "Shaloc"
 - git config --global user.email "shalocn@outlook.com"
