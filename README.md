@@ -1,6 +1,6 @@
 # Blog by Shaloc
 
-[![Build Status](https://travis-ci.com/Shaloc/blog_hugo.svg?branch=master)](https://travis-ci.com/Shaloc/blog_hugo)
+[![Build Status](https://travis-ci.org/Shaloc/blog_hugo.svg?branch=master)](https://travis-ci.org/Shaloc/blog_hugo)
 
 The source code of [my blog](https://gblog.shaloc.site).
 
