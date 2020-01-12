@@ -1,6 +1,6 @@
 ---
 title: "GPG"
-date: 2020-01-09T11:10:13+08:00
+date: 1970-01-09T11:10:13+08:00
 tags: []
 categories: []
 author: "Shaloc"
