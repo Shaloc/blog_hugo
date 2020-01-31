@@ -29,7 +29,7 @@ gpg --keyserver gpg.mit.edu --recv-key \
 
 ## Declarations
 
-The key id is `45995b6a03cea99c`, but it is strongly discouraged to import public kes by ID.
+The key id is `45995b6a03cea99c`, but it is strongly discouraged to import public keys by ID.
 
 The one and only address that I send encrypted email is **shalocn#outlook.com**, other email IDs that send encryped mails should not be considered attached to me. 
 

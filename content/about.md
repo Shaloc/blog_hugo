@@ -17,36 +17,16 @@ Hi~
 
 ## Status
 
+博客的CI编译状态：
+
 [![Build Status](https://travis-ci.com/Shaloc/blog_hugo.svg?branch=master)](https://travis-ci.com/Shaloc/blog_hugo)
 
 全部服务器：[服务器监控页面](https://status.shaloc.site)
-
-## Versions
-
-|Rev|Date|Summary|
-|:----:|:----:|:-------------|
-| 0.1 | 2018.06 |首次尝试使用Hugo创建静态博客|
-| 0.2 | 2018.10 |原有wordpress备份GG，新博客决定使用Hugo|
-| 1.0 | 2018.12 |使用稍微修改了的`maupassant`主题创建了博客|
-| 1.1 | 2019.01 |实现了使用GitHub+WebHook的自动部署|
-| 1.2 | 2019.03 |移植了`bwbox`到本博客中|
-| 2.0 | 2019.03 |更名为**大可爱和巨可爱**并迁移到了Github Pages|
-| 2.1 | 2019.04 |开启了周记计划！|
-| 2.2 | 2019.04 |实现了使用Travis自动部署并将域名解析迁移到Cloudflare|
-
-## Function
-<font face='Consolas'>
-[<font color='green'>OK</font>] Test::Force_SSL <br/>
-[<font color='green'>OK</font>] Test::Comment_With_Github_Issue <br/>
-[<font color='green'>OK</font>] Test::Automatic_Deploy <br/>
-[<font color='green'>OK</font>] Test::Site_Map <br/>
-[<font color='green'>OK</font>] Test::Multipoint_Deploy <br/></font>
 
 ## Future
 
 - 移植MoegirlWiki上的通知栏
 - 整理额外CSS并整合到主题中
-- 修改default.md
 
 ## Declaration
 
@@ -58,13 +38,6 @@ Hi~
 
 请访问我的[主页](https://www.shaloc.site)了解更多信息。
 
-## 测试
+Powered by **Hugo** version 0.62.2, built with travis-ci.org.
 
-{{% bwbox info %}}
-
-## A markdown test
-
-Line 1.
-
-Line 2.
-{{% /bwbox %}}
+Laputa GAO, 2020
