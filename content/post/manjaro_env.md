@@ -9,6 +9,8 @@ draft: false
 
 从重新开始使用ArchLinux到现在已经有几个月了，下面是一些经常使用和十分值得推荐的软件。
 
+<!--more-->
+
 ## 包管理工具
 
 PACMAN: pacman（[加入archlinuxcn源](https://mirror.tuna.tsinghua.edu.cn/help/archlinuxcn/)）

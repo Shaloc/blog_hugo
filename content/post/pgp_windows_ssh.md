@@ -14,6 +14,8 @@ GPG4WIN: [下载地址](https://files.gpg4win.org/gpg4win-3.1.10.exe)
 Cmder: [下载地址](https://github.com/cmderdev/cmder/releases/download/v1.3.12/cmder.zip)
 {{% /bwbox %}}
 
+<!--more-->
+
 ## Git
 
 Windows下使用GPG签名Git commit只需要修改git的设置即可。
