@@ -17,8 +17,8 @@ before_install:
 - git config --global user.email "shalocn@outlook.com"
 install:
 - cd ..
-- wget https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb
-- sudo dpkg -i ./hugo_0.62.2_Linux-64bit.deb
+- wget https://github.com/gohugoio/hugo/releases/download/v0.67.1/hugo_0.67.1_Linux-64bit.deb
+- sudo dpkg -i ./hugo_0.67.1_Linux-64bit.deb
 - sudo apt-get install -f
 - cd blog_hugo
 script:

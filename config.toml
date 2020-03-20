@@ -33,7 +33,7 @@ busuanzi = true
         style = "github"
 
 [markup.goldmark.renderer]
-  unsafe= true
+  unsafe = true
 
 
 [menu]
