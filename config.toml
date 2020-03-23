@@ -59,6 +59,11 @@ busuanzi = true
   weight = 5
 
 [[params.links]]
+  title = "WizNote"
+  name= "为知笔记（大概还有五个名额）"
+  url = "https://wiz.shaloc.site"
+  
+[[params.links]]
   title = "sm.ms"
   name = "土豪兽兽建的图床"
   url = "https://sm.ms/"
